@@ -1,0 +1,29 @@
+{
+  "name": "testing-forum",
+  "version": "1.0.0",
+  "description": "This is a private forum that provides a platform for registered users to engage in discussions by creating forum posts, associating categories with their posts, and participating in reading and commenting on all the posts. Additionally, the forum offers a chat feature that enables users to send private messages to each other.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anni-Muuripeal/Test-forum.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Anni-Muuripeal/Test-forum/issues"
+  },
+  "homepage": "https://github.com/Anni-Muuripeal/Test-forum#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.7"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "show-report": "playwright show-report"
+  }
+}
