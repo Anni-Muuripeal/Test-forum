@@ -1,0 +1,25 @@
+# Implementation Journal
+
+------
+Week template
+------
+## Week x Achievements
+- xxx
+- xxx
+- Learning: [Your insights]
+
+## Technical Growth
+- New skills acquired: [List them]
+- Challenges overcome: [Document them]
+- Next focus areas: [Planning]
+------
+## Week 1 Achievements
+- Project set-up: run Docker, set-up Playwright
+- Experiment with GitHub Actions
+- Initial tests for user registration
+- Learning: Learned to run Playwright tests and get familiar with test organisation
+
+## Technical Growth
+- New skills acquired: Playwright test running
+- Challenges overcome: Debugging first tests, using correct locators
+- Next focus areas: Implement page objects and implement auth.spec.js
