@@ -22,4 +22,4 @@ Week template
 ## Technical Growth
 - New skills acquired: Playwright test running
 - Challenges overcome: Debugging first tests, using correct locators
-- Next focus areas: Implement page objects and implement auth.spec.js
+- Next focus areas: Implement page objects, first tests for auth.spec.js, set up documentation using JSDoc
