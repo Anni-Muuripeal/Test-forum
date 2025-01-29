@@ -7,7 +7,8 @@
     "test": "playwright test",
     "test:ui": "playwright test --ui",
     "test:debug": "playwright test --debug",
-    "show-report": "playwright show-report"
+    "show-report": "playwright show-report",
+    "generate-docs": "jsdoc -c jsdoc.json -r tests/pageObjects/ -R README.md"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,9 @@
   },
   "homepage": "https://github.com/Anni-Muuripeal/Test-forum#readme",
   "devDependencies": {
-    "@playwright/test": "^1.49.1",
-    "@types/node": "^22.10.7"
+    "@playwright/test": "^1.50.0",
+    "@types/node": "^22.10.7",
+    "jsdoc": "^4.0.4",
+    "playwright": "^1.50.0"
   }
 }
