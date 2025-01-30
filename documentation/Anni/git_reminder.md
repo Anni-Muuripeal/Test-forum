@@ -25,29 +25,6 @@ Create pull request
 
 Pull request template:
 
-----
-# Test Implementation: Login Functionality
-
-## Changes Overview
-Implementation of automated tests for the login functionality using Playwright and Page Object Model.
-
-## Technical Details
-- Created LoginPage page object
-- Implemented basic authentication test scenarios
-- Added error handling for invalid credentials
-
-## Test Coverage
-- Successful login
-- Invalid credentials handling
-- Session management
-
-## Testing Notes
-All tests executed successfully in local environment.
-
-## Related Issues
-Closes #1
-----
-
 Merge
 
 Local clean up:
@@ -71,6 +48,9 @@ git branch
 
 Local and remote branches:
 git branch -a
+
+create and switch to the new branch:
+git checkout -b branch-name
 
 Commit history:
 git log --oneline --graph
