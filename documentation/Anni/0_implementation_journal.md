@@ -23,3 +23,13 @@ Week template
 - New skills acquired: Playwright test running
 - Challenges overcome: Debugging first tests, using correct locators
 - Next focus areas: Implement page objects, first tests for auth.spec.js, set up documentation using JSDoc
+
+## Week 2 Achievements
+- Detour to automated documentation - JSDoc, continue later
+- First two pageObject files, gathering selectors into constants for maintability
+
+
+## Technical Growth
+- New skills acquired: 
+- Challenges overcome: 
+- Next focus areas: 

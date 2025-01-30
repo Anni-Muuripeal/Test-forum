@@ -1,0 +1,1 @@
+- Selectors are centralized in Page Objects to showcase maintainability patterns, even though this project is static.
