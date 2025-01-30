@@ -1,7 +1,7 @@
 Page object pattern
 CI/CD - GitHub Actions
 
-Core test scenarious:
+Core test scenarios:
 - User authentication (registration, login, logout)
 - Basic forum functionality (viewing posts, creating posts, commenting)
 - Critical user interactions (navigation, error handling)
