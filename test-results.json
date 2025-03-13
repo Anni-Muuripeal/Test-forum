@@ -94,7 +94,7 @@
                     {
                       "workerIndex": 0,
                       "status": "failed",
-                      "duration": 3898,
+                      "duration": 4166,
                       "error": {
                         "message": "TypeError: Cannot read properties of undefined (reading 'validUser')",
                         "stack": "TypeError: Cannot read properties of undefined (reading 'validUser')\n    at C:\\Users\\Anni\\Desktop\\Testing-forum\\tests\\auth.spec.js:18:43",
@@ -118,7 +118,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-13T10:31:42.393Z",
+                      "startTime": "2025-03-13T10:42:23.402Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -161,7 +161,7 @@
                     {
                       "workerIndex": 1,
                       "status": "failed",
-                      "duration": 3854,
+                      "duration": 4060,
                       "error": {
                         "message": "TypeError: Cannot read properties of undefined (reading 'validUser')",
                         "stack": "TypeError: Cannot read properties of undefined (reading 'validUser')\n    at C:\\Users\\Anni\\Desktop\\Testing-forum\\tests\\auth.spec.js:25:37",
@@ -185,7 +185,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-13T10:31:42.308Z",
+                      "startTime": "2025-03-13T10:42:23.357Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -228,7 +228,7 @@
                     {
                       "workerIndex": 2,
                       "status": "failed",
-                      "duration": 1060,
+                      "duration": 1014,
                       "error": {
                         "message": "TypeError: Cannot read properties of undefined (reading 'invalidUser')",
                         "stack": "TypeError: Cannot read properties of undefined (reading 'invalidUser')\n    at C:\\Users\\Anni\\Desktop\\Testing-forum\\tests\\auth.spec.js:32:37",
@@ -252,7 +252,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-13T10:31:57.878Z",
+                      "startTime": "2025-03-13T10:42:30.285Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -312,12 +312,12 @@
                     {
                       "workerIndex": 3,
                       "status": "passed",
-                      "duration": 1213,
+                      "duration": 1014,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-13T10:31:57.833Z",
+                      "startTime": "2025-03-13T10:42:30.316Z",
                       "attachments": []
                     }
                   ],
@@ -336,8 +336,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-03-13T10:31:37.444Z",
-    "duration": 22358.615999999998,
+    "startTime": "2025-03-13T10:42:17.681Z",
+    "duration": 14376.099,
     "expected": 1,
     "skipped": 0,
     "unexpected": 3,
