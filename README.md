@@ -1,36 +1,64 @@
-# Forum Application Test Automation Portfolio
+# Forum application test automation portfolio
 
 ## Overview
-This repository contains an automated testing framework for a forum application. The forum project is a school project in kood/Jõhvi coding school. The Test-Forum project demonstrates a comprehensive approach to quality assurance, implementing best practices in test automation using Playwright.
+This repository contains an automated testing framework for a forum application. The forum project is a school project in kood/Jõhvi programming school as a part of a teamwork, project based learning. 
 
-## Application Under Test
-The forum application provides user authentication, post management, and real-time chat functionality. It is built using Go for the backend, with JavaScript handling frontend interactions, WebSocket communication, SQLite3 database and HTML/CSS.
+## Forum application
+The forum application provides user authentication, post management, and chat functionality. It is built using Go for the backend, with JavaScript handling frontend interactions, WebSocket communication, SQLite3 database and HTML/CSS.
 
 ## Technical Stack
 - Playwright: Primary testing framework
 - JavaScript: Testing language
-- Docker: Container management
 - Page Object Pattern: Design pattern for test maintainability
 
-
 ## Project Structure
-xxx
+Testing-forum/
+├── backend/
+├── docs/
+├── documantation/Anni # Personal docs
+├── frontend/
+├── node_modules/
+├── playwright-report/
+├── test-results/
+├── tests/
+│   ├── pages/        # Page objects for tests
+│   ├── fixtures/     # Test data
+│   └── *.spec.js     # Test files
+├── main.go           # Main application file
+├── playwright.config.js
+└── package.json
 
-## Test Coverage
-xxx
-### xxx
+## Prerequisites
+
+1. Node.js (v14 or newer) installed
+2. Go programming language installed (v1.16 or newer)
+3. Git for cloning the repository
+4. Browser dependencies will be installed during setup
+
+## Setup instructions
+
+- Clone this repository to your local machine:
+bash:
+git clone https://github.com/Anni-Muuripeal/Test-forum.git
+
+- Navigate to the project directory:
+cd Testing-forum
+
+- Install Node.js dependencies:
+npm install
+
+- Install Playwright browsers:
+npx playwright install
 
 
 
-## How rn the  use with Docker:
-- You should have Docker installed. 
-- To build the image and run the container type in your terminal: sh build_docker.sh 
-- Then open localhost:8080 in your browser to visit the forum.
-- When you are finished and you want to delete docker container and images press Enter in your terminal. It will run delete_docker script. 
-- running tests: npm test
-- specific tests: npm test -- tests/specs/auth.spec.js
+## How run the tests:
+- Start the application server in a separate terminal:
+go run main.go
+The server will start at http://localhost:8080
+- Run all tests:
 
-## Author
+## Tests Author
 Anni Müüripeal aka Anni.M
 
 LinkedIn: [\[Your LinkedIn Profile\]](https://www.linkedin.com/in/anni-muuripeal/)
