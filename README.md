@@ -12,35 +12,21 @@ The forum application provides user authentication, post management, and chat fu
 - Page Object Pattern: Design pattern for test maintainability
 
 ## Project Structure
-Testing-forum/
-
-├── backend/
-
-├── docs/
-
-├── documantation/Anni # Personal docs
-
-├── frontend/
-
-├── node_modules/
-
-├── playwright-report/
-
-├── test-results/
-
-├── tests/
-
-│   ├── pages/        # Page objects for tests
-
-│   ├── fixtures/     # Test data
-
-│   └── *.spec.js     # Test files
-
-├── main.go           # Main application file
-
-├── playwright.config.js
-
-└── package.json
+Testing-forum/  
+├── backend/  
+├── docs/  
+├── documantation/Anni # Personal docs  
+├── frontend/  
+├── node_modules/  
+├── playwright-report/  
+├── test-results/  
+├── tests/  
+│   ├── pages/        # Page objects for tests  
+│   ├── fixtures/     # Test data  
+│   └── *.spec.js     # Test files  
+├── main.go           # Main application file  
+├── playwright.config.js  
+└── package.json  
 
 ## Prerequisites
 
