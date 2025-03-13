@@ -17,17 +17,21 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
+   "bugs": {
     "url": "https://github.com/Anni-Muuripeal/Test-forum/issues"
   },
   "homepage": "https://github.com/Anni-Muuripeal/Test-forum#readme",
   "devDependencies": {
-    "@playwright/test": "^1.50.0",
+    "@playwright/test": "^1.50.1",
     "@types/node": "^22.10.7",
     "allure-playwright": "^3.2.0",
     "dotenv": "^16.4.7",
     "jsdoc": "^4.0.4",
     "playwright": "^1.50.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
   }
 }
