@@ -1,4 +1,3 @@
-// tests/pages/registerPage.js
 export class RegisterPage {
   constructor(page) {
     this.page = page;
@@ -29,5 +28,18 @@ export class RegisterPage {
     await this.passwordInput.fill(userData.password);
     await this.passwordRepeatInput.fill(userData.password);
     await this.submitButton.click();
+  }
+
+  async registerWithUniqueUsername(baseUserData) {
+    const timestamp = Date.now();
+    const uniqueUser = {
+      ...baseUserData,
+      nickname: `${baseUserData.nickname}_${timestamp}`,
+      email: `${baseUserData.nickname}_${timestamp}@example.com`
+    };
+    
+    await this.register(uniqueUser);
+    
+    return uniqueUser;
   }
 }

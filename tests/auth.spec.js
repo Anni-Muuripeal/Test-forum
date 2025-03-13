@@ -1,4 +1,3 @@
-// tests/specs/auth.spec.js
 import { test, expect } from '@playwright/test';
 import { LoginPage } from './pages/loginPage';
 import { RegisterPage } from './pages/registerPage';
@@ -7,6 +6,7 @@ import { testUsers } from './fixtures/testData';
 test.describe('Authentication', () => {
   let loginPage;
   let registerPage;
+  let registeredUser;
 
   test.beforeEach(async ({ page }) => {
     loginPage = new LoginPage(page);
@@ -15,15 +15,13 @@ test.describe('Authentication', () => {
 
   test('should successfully register a new user', async ({ page }) => {
     await registerPage.navigateToRegister();
-    await registerPage.register(testUsers.validUser);
-    // After successful registration, the form should be replaced with login form
+    registeredUser = await registerPage.registerWithUniqueUsername(testUsers.validUser);
     await expect(page.locator('#login-form')).toBeVisible();
   });
 
   test('should successfully login with valid credentials', async ({ page }) => {
     await loginPage.navigateToLogin();
     await loginPage.login(testUsers.validUser.nickname, testUsers.validUser.password);
-    // Should show welcome message
     await expect(page.locator('.name')).toContainText('Welcome');
   });
 
