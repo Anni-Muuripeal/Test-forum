@@ -61,7 +61,7 @@ The server will start at http://localhost:8080
 ## Tests Author
 Anni Müüripeal aka Anni.M
 
-LinkedIn: [\[Your LinkedIn Profile\]](https://www.linkedin.com/in/anni-muuripeal/)
+LinkedIn: [\[Anni\]](https://www.linkedin.com/in/anni-muuripeal/)  
 Email: anni.myyripeal@gmail.com 
 
 ## Original Forum Project Authors
