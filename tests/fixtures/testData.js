@@ -1,26 +1,37 @@
-// tests/pages/loginPage.js
-exports.LoginPage = class LoginPage {
-  constructor(page) {
-    this.page = page;
-    this.loginButton = page.locator('#login-button');
-    this.nicknameInput = page.locator('#nickname');
-    this.passwordInput = page.locator('#password');
-    this.submitButton = page.locator('input[type="submit"]');
-    this.errorMessage = page.locator('.message');
-  }
+export const testUsers = {
+  validUser: {
+    nickname: 'testuser1',
+    age: 25,
+    gender: 'male',
+    firstName: 'Test',
+    lastName: 'User',
+    email: 'testuser1@example.com',
+    password: 'password123'
+  },
+  invalidUser: {
+    nickname: 'nonexistent',
+    password: 'wrongpassword'
+  },
 
-  async navigateToLogin() {
-    await this.page.goto('/');
-    await this.loginButton.click();
+  generateUniqueUser: () => {
+    const timestamp = Date.now();
+    return {
+      nickname: `user_${timestamp}`,
+      age: 30,
+      gender: 'female',
+      firstName: 'New',
+      lastName: 'User',
+      email: `user_${timestamp}@example.com`,
+      password: 'newuserpass123'
+    };
   }
+};
 
-  async login(nickname, password) {
-    await this.nicknameInput.fill(nickname);
-    await this.passwordInput.fill(password);
-    await this.submitButton.click();
-  }
-
-  async getErrorMessage() {
-    return await this.errorMessage.textContent();
-  }
-}
+export const testPosts = {
+  validPost: {
+    title: 'Test Post Title',
+    content: 'This is a test post content with enough characters to be valid.',
+    categories: ['movies']
+  },
+  commentText: 'This is a test comment on the post.'
+};

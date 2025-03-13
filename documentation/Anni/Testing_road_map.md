@@ -2,7 +2,7 @@ Page object pattern
 CI/CD - GitHub Actions
 
 To-do:
-- Set up GitHub Actions to createpull requests and run tests on code push? 
+- Set up GitHub Actions to createpull requests and run tests on code push? Is that a good idea?
 - set up docker
 - agregate reporting into one folder
 
